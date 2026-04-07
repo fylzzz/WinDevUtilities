@@ -2,6 +2,13 @@
 #define perlin_H
 #include <raylib.h>
 
+/** struct Vector2
+{
+  float x;
+  float y;
+};
+**/
+
 float perlinNoise(float x, float y);
 float interpolate(float a0, float a1, float w);
 float dotGridGradient(int ix, int iy, float x, float y);
